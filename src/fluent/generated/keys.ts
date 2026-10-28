@@ -67,6 +67,50 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '25fbff8c4758d710178dcd9fe16d4341'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.end_split'
+                            position: '9'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '29429f9725874450b02b4aa5b98d555d'
+                        deleted: true
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'audience'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '29fbff8c4758d710178dcd9fe16d433e'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.begin_split'
+                            position: '5'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '2ae0b12c965846e4ab91af39f86993cf'
                         key: {
@@ -78,11 +122,52 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_section'
+                        id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                        key: {
+                            name: 'x_471120_qatemp_question'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '2dfbff8c4758d710178dcd9fe16d433b'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'answer'
+                            position: '1'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '32ea3d0eee474ec0ac22dfbe3b431907'
                         key: {
                             name: 'x_471120_qatemp_question'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '3ca6a5ceda894fd9904766cdcbf60055'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'date'
+                            language: 'en'
                         }
                     },
                     {
@@ -94,10 +179,28 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '4255cf0a737c4dc5b5c93e67342cb2fa'
+                        deleted: true
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'audience'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '456ba99c508e423baab7e53b4b6cad03'
                         key: {
                             name: 'x_471120_qatemp_question'
                             element: 'fullscreen'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '46799f2c95a84cb2a2c929f2a5d1193f'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'name'
+                            language: 'en'
                         }
                     },
                     {
@@ -110,10 +213,43 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '5adfcdb689a94f949746e1ac801113f1'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '606e54df8e0b401d957cdba3e342a8e1'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'date'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '6194000160204779a506b9d0a9f4b591'
                         key: {
                             name: 'x_471120_qatemp_question'
                             element: 'type'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '61fbff8c4758d710178dcd9fe16d433a'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'type'
+                            position: '0'
                         }
                     },
                     {
@@ -130,6 +266,55 @@ declare global {
                             name: 'x_471120_qatemp_question'
                             element: 'difficulty'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '69d0b8c6313b4a1092f46092e3752c26'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'number'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '69fbff8c4758d710178dcd9fe16d4340'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'difficulty'
+                            position: '8'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '6c02346639c04f7c97a7661a062bdcbb'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '6dfbff8c4758d710178dcd9fe16d433d'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'filename'
+                            position: '4'
                         }
                     },
                     {
@@ -222,6 +407,31 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '91fc17e0cdf441cfbe37149a7ea84f52'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'name'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'a1fbff8c4758d710178dcd9fe16d433d'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'question'
+                            position: '3'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'a2bef9211c814f65906fa856690a8b32'
                         key: {
@@ -244,6 +454,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'adfbff8c4758d710178dcd9fe16d433f'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.split'
+                            position: '7'
+                        }
+                    },
+                    {
                         table: 'sn_glider_source_artifact_m2m'
                         id: 'b3789754736a4cf8adf2d77e2181a1b5'
                         key: {
@@ -261,10 +488,28 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: 'b82fb77108164e00b522799878774759'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'number'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: 'c28fa75d14124be48d386c6c3a9cf0d8'
                         key: {
                             name: 'x_471120_qatemp_question'
                             element: 'answer'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'c2cbc0fb3078413da293699b98bd589b'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'NULL'
                             language: 'en'
                         }
                     },
@@ -325,6 +570,40 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'e1fbff8c4758d710178dcd9fe16d433f'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'fullscreen'
+                            position: '6'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'e5fbff8c4758d710178dcd9fe16d433c'
+                        key: {
+                            sys_ui_section: {
+                                id: '2dfbbf8c4758d710178dcd9fe16d432c'
+                                key: {
+                                    name: 'x_471120_qatemp_question'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'media_type'
+                            position: '2'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'e872db7c48e7478db862566be5192530'
                         key: {
@@ -341,6 +620,13 @@ declare global {
                         key: {
                             name: 'x_471120_qatemp_question'
                             element: 'difficulty'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: 'ed3e83c4784a4dc1a90a68330d0c281a'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
                         }
                     },
                     {
