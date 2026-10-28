@@ -1,0 +1,7 @@
+{
+    "scope": "x_471120_qatemp",
+    "scopeId": "c0bab7c84758d710178dcd9fe16d4389",
+    "name": "qatemp",
+    "tsconfigPath": "./src/server/tsconfig.json",
+    "packageSourceCodeOnInstance": true
+}
