@@ -432,6 +432,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'a2be611c12994c69a4659ec4b23878e4'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'description'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'a2bef9211c814f65906fa856690a8b32'
                         key: {
@@ -493,6 +502,14 @@ declare global {
                             name: 'x_471120_qatemp_quiz'
                             element: 'number'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'baf47df8452f4ea2b6d228396808ee95'
+                        key: {
+                            name: 'x_471120_qatemp_quiz'
+                            element: 'description'
                         }
                     },
                     {

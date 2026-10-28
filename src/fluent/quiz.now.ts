@@ -17,5 +17,9 @@ export const x_471120_qatemp_quiz = Table({
         date: DateColumn({
             label: 'Date',
         }),
+        description: StringColumn({
+            label: 'Description',
+            maxLength: 4000,
+        })
     },
 });
